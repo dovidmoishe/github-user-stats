@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Github stats</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form" autocomplete="false">
+        <input
+          type="text"
+          id="search"
+          class="search-box"
+          placeholder="Search your username"
+          required
+        />
+        <select name="themeselector" id="select-theme">
+            <option value="default">Default</option>
+            <option value="dark">Dark</option>
+            <option value="radical">Radical</option>
+            <option value="merko">Merko</option>
+            <option value="gruvbox">Gruvbox</option>
+            <option value="gruvbox_light">Gruvbox light</option>
+            <option value="tokyonight">Tokyonight</option>
+            <option value="onedark">Onedark</option>
+            <option value="cobalt">Cobalt</option>
+            <option value="synthwave">Sythwave</option>
+            <option value="highcontrast">Highcontrast</option>
+            <option value="dracula">Dracula</option>
+          </select>
+        <button class="search-btn">Search User</button>
+      </form>
+      
+    </div>
+    <div id="profilestats"></div>
+
+    <footer>
+      Powered by <a href="https://github.com/anuraghazra/github-readme-stats">Gihub readme stats</a>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
